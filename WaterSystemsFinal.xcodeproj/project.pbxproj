@@ -1,0 +1,1034 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A604D3A1A431F3B0028FD34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A604D391A431F3B0028FD34 /* main.m */; };
+		1A604D3D1A431F3B0028FD34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A604D3C1A431F3B0028FD34 /* AppDelegate.m */; };
+		1A604D401A431F3B0028FD34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A604D3F1A431F3B0028FD34 /* ViewController.m */; };
+		1A604D431A431F3B0028FD34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D411A431F3B0028FD34 /* Main.storyboard */; };
+		1A604D451A431F3B0028FD34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D441A431F3B0028FD34 /* Images.xcassets */; };
+		1A604D541A431F3B0028FD34 /* WaterSystemsFinalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A604D531A431F3B0028FD34 /* WaterSystemsFinalTests.m */; };
+		1A604DE11A431F6B0028FD34 /* Btn-Enter-and-Next-Blank_682x115.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D601A431F6B0028FD34 /* Btn-Enter-and-Next-Blank_682x115.png */; };
+		1A604DE21A431F6B0028FD34 /* Btn-Test-Sequence-Blank_652x115.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D611A431F6B0028FD34 /* Btn-Test-Sequence-Blank_652x115.png */; };
+		1A604DE31A431F6B0028FD34 /* Btn-Boiler-Water.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D631A431F6B0028FD34 /* Btn-Boiler-Water.png */; };
+		1A604DE41A431F6B0028FD34 /* Btn-Cooling-Water.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D641A431F6B0028FD34 /* Btn-Cooling-Water.png */; };
+		1A604DE51A431F6B0028FD34 /* Btn-Enter-wText.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D651A431F6B0028FD34 /* Btn-Enter-wText.png */; };
+		1A604DE61A431F6B0028FD34 /* Btn-Next-wText.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D661A431F6B0028FD34 /* Btn-Next-wText.png */; };
+		1A604DE71A431F6B0028FD34 /* Btn-Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D671A431F6B0028FD34 /* Btn-Start.png */; };
+		1A604DE81A431F6B0028FD34 /* Btn-Condensate.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D6A1A431F6B0028FD34 /* Btn-Condensate.png */; };
+		1A604DE91A431F6B0028FD34 /* Btn-Feed-Water.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D6B1A431F6B0028FD34 /* Btn-Feed-Water.png */; };
+		1A604DEA1A431F6B0028FD34 /* Btn-Makeup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D6C1A431F6B0028FD34 /* Btn-Makeup.png */; };
+		1A604DEB1A431F6B0028FD34 /* Btn-Steam-Boiler.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D6D1A431F6B0028FD34 /* Btn-Steam-Boiler.png */; };
+		1A604DEC1A431F6B0028FD34 /* Btn-Closed-System.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D6F1A431F6B0028FD34 /* Btn-Closed-System.png */; };
+		1A604DED1A431F6B0028FD34 /* Btn-Makeup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D701A431F6B0028FD34 /* Btn-Makeup.png */; };
+		1A604DEE1A431F6B0028FD34 /* Btn-Tower.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D711A431F6B0028FD34 /* Btn-Tower.png */; };
+		1A604DEF1A431F6B0028FD34 /* Icon-Edit-Account.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D731A431F6B0028FD34 /* Icon-Edit-Account.png */; };
+		1A604DF01A431F6B0028FD34 /* Icon-Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D741A431F6B0028FD34 /* Icon-Settings.png */; };
+		1A604DF11A431F6B0028FD34 /* Icon-Sign-Out.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D751A431F6B0028FD34 /* Icon-Sign-Out.png */; };
+		1A604DF21A431F6B0028FD34 /* Icon-Test-History.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D761A431F6B0028FD34 /* Icon-Test-History.png */; };
+		1A604DF31A431F6B0028FD34 /* 001-Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D791A431F6B0028FD34 /* 001-Home.png */; };
+		1A604DF41A431F6B0028FD34 /* 002-Home-Dropdown-Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D7A1A431F6B0028FD34 /* 002-Home-Dropdown-Menu.png */; };
+		1A604DF51A431F6B0028FD34 /* 003-Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D7C1A431F6B0028FD34 /* 003-Home.png */; };
+		1A604DF61A431F6B0028FD34 /* 004-Cooling-Water-Test-Sequences.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D7D1A431F6B0028FD34 /* 004-Cooling-Water-Test-Sequences.png */; };
+		1A604DF71A431F6B0028FD34 /* 005-CW-Makeup-Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D7E1A431F6B0028FD34 /* 005-CW-Makeup-Start.png */; };
+		1A604DF81A431F6B0028FD34 /* 006-CW-Makeup-Phosphate-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D7F1A431F6B0028FD34 /* 006-CW-Makeup-Phosphate-1-of-2.png */; };
+		1A604DF91A431F6B0028FD34 /* 007-CW-Makeup-Cond-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D801A431F6B0028FD34 /* 007-CW-Makeup-Cond-1-of-1.png */; };
+		1A604DFA1A431F6B0028FD34 /* 008-CW-Makeup-Phosphate-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D811A431F6B0028FD34 /* 008-CW-Makeup-Phosphate-2-of-2.png */; };
+		1A604DFB1A431F6B0028FD34 /* 009-CW-Makeup-CH-1of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D821A431F6B0028FD34 /* 009-CW-Makeup-CH-1of-1.png */; };
+		1A604DFC1A431F6B0028FD34 /* 010-CW-Makeup-Silica-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D831A431F6B0028FD34 /* 010-CW-Makeup-Silica-1-of-2.png */; };
+		1A604DFD1A431F6B0028FD34 /* 011-CW-Makeup-TH-1of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D841A431F6B0028FD34 /* 011-CW-Makeup-TH-1of-1.png */; };
+		1A604DFE1A431F6B0028FD34 /* 012-CW-Makeup-Silica-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D851A431F6B0028FD34 /* 012-CW-Makeup-Silica-2-of-2.png */; };
+		1A604DFF1A431F6B0028FD34 /* 013-Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D871A431F6B0028FD34 /* 013-Home.png */; };
+		1A604E001A431F6B0028FD34 /* 014-Cooling-Water-Test-Sequences.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D881A431F6B0028FD34 /* 014-Cooling-Water-Test-Sequences.png */; };
+		1A604E011A431F6B0028FD34 /* 015-CW-Tower-Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D891A431F6B0028FD34 /* 015-CW-Tower-Start.png */; };
+		1A604E021A431F6B0028FD34 /* 016-CW-Tower-Chlorine-1-of-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D8A1A431F6B0028FD34 /* 016-CW-Tower-Chlorine-1-of-3.png */; };
+		1A604E031A431F6B0028FD34 /* 017-CW-Tower-Chlorine-2-of-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D8B1A431F6B0028FD34 /* 017-CW-Tower-Chlorine-2-of-3.png */; };
+		1A604E041A431F6B0028FD34 /* 018-CW-Tower-Cond-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D8C1A431F6B0028FD34 /* 018-CW-Tower-Cond-1-of-1.png */; };
+		1A604E051A431F6B0028FD34 /* 019-CW-Tower-Chlorine-3-of-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D8D1A431F6B0028FD34 /* 019-CW-Tower-Chlorine-3-of-3.png */; };
+		1A604E061A431F6B0028FD34 /* 020-CW-Tower-TA-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D8E1A431F6B0028FD34 /* 020-CW-Tower-TA-1-of-1.png */; };
+		1A604E071A431F6B0028FD34 /* 021-CW-Tower-Azole-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D8F1A431F6B0028FD34 /* 021-CW-Tower-Azole-1-of-2.png */; };
+		1A604E081A431F6B0028FD34 /* 022-CW-Tower-Choose-CH.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D901A431F6B0028FD34 /* 022-CW-Tower-Choose-CH.png */; };
+		1A604E091A431F6B0028FD34 /* 023-CW-Tower-CH-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D911A431F6B0028FD34 /* 023-CW-Tower-CH-1-of-1.png */; };
+		1A604E0A1A431F6B0028FD34 /* 024-CW-Tower-Azole-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D921A431F6B0028FD34 /* 024-CW-Tower-Azole-2-of-2.png */; };
+		1A604E0B1A431F6B0028FD34 /* 025-CW-Tower-Copper-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D931A431F6B0028FD34 /* 025-CW-Tower-Copper-1-of-2.png */; };
+		1A604E0C1A431F6B0028FD34 /* 026-CW-Tower-Choose-TH.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D941A431F6B0028FD34 /* 026-CW-Tower-Choose-TH.png */; };
+		1A604E0D1A431F6B0028FD34 /* 027-CW-Tower-TH-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D951A431F6B0028FD34 /* 027-CW-Tower-TH-1-of-1.png */; };
+		1A604E0E1A431F6B0028FD34 /* 028-CW-Tower-pH-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D961A431F6B0028FD34 /* 028-CW-Tower-pH-1-of-1.png */; };
+		1A604E0F1A431F6B0028FD34 /* 029-CW-Tower-Copper-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D971A431F6B0028FD34 /* 029-CW-Tower-Copper-2-of-2.png */; };
+		1A604E101A431F6B0028FD34 /* 030-CW-Tower-Iron-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D981A431F6B0028FD34 /* 030-CW-Tower-Iron-1-of-2.png */; };
+		1A604E111A431F6B0028FD34 /* 031-CW-Tower-Bacteria-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D991A431F6B0028FD34 /* 031-CW-Tower-Bacteria-1-of-1.png */; };
+		1A604E121A431F6B0028FD34 /* 032-CW-Tower-Iron-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D9A1A431F6B0028FD34 /* 032-CW-Tower-Iron-2-of-2.png */; };
+		1A604E131A431F6B0028FD34 /* 033-CW-Tower-Phosphonate-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D9B1A431F6B0028FD34 /* 033-CW-Tower-Phosphonate-1-of-2.png */; };
+		1A604E141A431F6B0028FD34 /* 034-CW-Tower-TRASAR2-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D9C1A431F6B0028FD34 /* 034-CW-Tower-TRASAR2-1-of-1.png */; };
+		1A604E151A431F6B0028FD34 /* 035-CW-Tower-Phosphonate-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D9D1A431F6B0028FD34 /* 035-CW-Tower-Phosphonate-2-of-2.png */; };
+		1A604E161A431F6B0028FD34 /* 036-Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604D9F1A431F6B0028FD34 /* 036-Home.png */; };
+		1A604E171A431F6B0028FD34 /* 037-Cooling-Water-Test-Sequences.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DA01A431F6B0028FD34 /* 037-Cooling-Water-Test-Sequences.png */; };
+		1A604E181A431F6B0028FD34 /* 037b-CW-Closed-Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DA11A431F6B0028FD34 /* 037b-CW-Closed-Start.png */; };
+		1A604E191A431F6B0028FD34 /* 038-CW-Closed-Azole-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DA21A431F6B0028FD34 /* 038-CW-Closed-Azole-1-of-2.png */; };
+		1A604E1A1A431F6B0028FD34 /* 039-CW-Closed-pH-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DA31A431F6B0028FD34 /* 039-CW-Closed-pH-1-of-1.png */; };
+		1A604E1B1A431F6B0028FD34 /* 040-CW-Closed-Conductivity-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DA41A431F6B0028FD34 /* 040-CW-Closed-Conductivity-1-of-1.png */; };
+		1A604E1C1A431F6B0028FD34 /* 041-CW-Closed-Azole-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DA51A431F6B0028FD34 /* 041-CW-Closed-Azole-2-of-2.png */; };
+		1A604E1D1A431F6B0028FD34 /* 042-CW-Closed-Iron-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DA61A431F6B0028FD34 /* 042-CW-Closed-Iron-1-of-2.png */; };
+		1A604E1E1A431F6B0028FD34 /* 043-CW-Closed-Iron-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DA71A431F6B0028FD34 /* 043-CW-Closed-Iron-2-of-2.png */; };
+		1A604E1F1A431F6B0028FD34 /* 044-CW-Closed-Copper-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DA81A431F6B0028FD34 /* 044-CW-Closed-Copper-1-of-2.png */; };
+		1A604E201A431F6B0028FD34 /* 045-CW-Closed-Copper-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DA91A431F6B0028FD34 /* 045-CW-Closed-Copper-2-of-2.png */; };
+		1A604E211A431F6B0028FD34 /* 046-CW-Closed-Phosphonate-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DAA1A431F6B0028FD34 /* 046-CW-Closed-Phosphonate-1-of-2.png */; };
+		1A604E221A431F6B0028FD34 /* 047-CW-Closed-Phosphonate-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DAB1A431F6B0028FD34 /* 047-CW-Closed-Phosphonate-2-of-2.png */; };
+		1A604E231A431F6B0028FD34 /* 048-CW-Closed-Molybdenum-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DAC1A431F6B0028FD34 /* 048-CW-Closed-Molybdenum-1-of-2.png */; };
+		1A604E241A431F6B0028FD34 /* 049-CW-Closed-Nitrite-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DAD1A431F6B0028FD34 /* 049-CW-Closed-Nitrite-1-of-1.png */; };
+		1A604E251A431F6B0028FD34 /* 050-CW-Closed-Molybdenum-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DAE1A431F6B0028FD34 /* 050-CW-Closed-Molybdenum-2-of-2.png */; };
+		1A604E261A431F6B0028FD34 /* 051-CW-Closed-Silica-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DAF1A431F6B0028FD34 /* 051-CW-Closed-Silica-1-of-2.png */; };
+		1A604E271A431F6B0028FD34 /* 052-CW-Closed-Silica-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DB01A431F6B0028FD34 /* 052-CW-Closed-Silica-2-of-2.png */; };
+		1A604E281A431F6B0028FD34 /* 053-Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DB21A431F6B0028FD34 /* 053-Home.png */; };
+		1A604E291A431F6B0028FD34 /* 054-Boiler-Water-Test-Sequences.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DB31A431F6B0028FD34 /* 054-Boiler-Water-Test-Sequences.png */; };
+		1A604E2A1A431F6B0028FD34 /* 054b-Boiler-Condensate-Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DB41A431F6B0028FD34 /* 054b-Boiler-Condensate-Start.png */; };
+		1A604E2B1A431F6B0028FD34 /* 055-BW-Condensate-Iron-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DB51A431F6B0028FD34 /* 055-BW-Condensate-Iron-1-of-2.png */; };
+		1A604E2C1A431F6B0028FD34 /* 056-BW-Condensate-pH-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DB61A431F6B0028FD34 /* 056-BW-Condensate-pH-1-of-1.png */; };
+		1A604E2D1A431F6B0028FD34 /* 057-BW-Condensate-Iron-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DB71A431F6B0028FD34 /* 057-BW-Condensate-Iron-2-of-2.png */; };
+		1A604E2E1A431F6B0028FD34 /* 058-BW-Condensate-Conductivity-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DB81A431F6B0028FD34 /* 058-BW-Condensate-Conductivity-1-of-1.png */; };
+		1A604E2F1A431F6B0028FD34 /* 059-BW-Condensate-TH-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DB91A431F6B0028FD34 /* 059-BW-Condensate-TH-1-of-1.png */; };
+		1A604E301A431F6B0028FD34 /* 060-Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DBB1A431F6B0028FD34 /* 060-Home.png */; };
+		1A604E311A431F6B0028FD34 /* 061-Boiler-Water-Test-Sequences.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DBC1A431F6B0028FD34 /* 061-Boiler-Water-Test-Sequences.png */; };
+		1A604E321A431F6B0028FD34 /* 061b-Boiler-Makeup-Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DBD1A431F6B0028FD34 /* 061b-Boiler-Makeup-Start.png */; };
+		1A604E331A431F6B0028FD34 /* 062-BW-Makeup-Choose-Chlorine.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DBE1A431F6B0028FD34 /* 062-BW-Makeup-Choose-Chlorine.png */; };
+		1A604E341A431F6B0028FD34 /* 063-BW-Makeup-Chlorine-1-of-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DBF1A431F6B0028FD34 /* 063-BW-Makeup-Chlorine-1-of-3.png */; };
+		1A604E351A431F6B0028FD34 /* 064-BW-Makeup-Chlorine-2-of-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DC01A431F6B0028FD34 /* 064-BW-Makeup-Chlorine-2-of-3.png */; };
+		1A604E361A431F6B0028FD34 /* 065-BW-Makeup-Chlorine-3-of-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DC11A431F6B0028FD34 /* 065-BW-Makeup-Chlorine-3-of-3.png */; };
+		1A604E371A431F6B0028FD34 /* 066-BW-Makeup-Silica-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DC21A431F6B0028FD34 /* 066-BW-Makeup-Silica-1-of-2.png */; };
+		1A604E381A431F6B0028FD34 /* 067-BW-Makeup-Silica-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DC31A431F6B0028FD34 /* 067-BW-Makeup-Silica-2-of-2.png */; };
+		1A604E391A431F6B0028FD34 /* 068-BW-Makeup-TH-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DC41A431F6B0028FD34 /* 068-BW-Makeup-TH-1-of-1.png */; };
+		1A604E3A1A431F6B0028FD34 /* 069-Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DC61A431F6B0028FD34 /* 069-Home.png */; };
+		1A604E3B1A431F6B0028FD34 /* 070-Boiler-Water-Test-Sequences.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DC71A431F6B0028FD34 /* 070-Boiler-Water-Test-Sequences.png */; };
+		1A604E3C1A431F6B0028FD34 /* 070b-Boiler-Feedwater-Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DC81A431F6B0028FD34 /* 070b-Boiler-Feedwater-Start.png */; };
+		1A604E3D1A431F6B0028FD34 /* 071-BW-Feedwater-Sulfite-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DC91A431F6B0028FD34 /* 071-BW-Feedwater-Sulfite-1-of-1.png */; };
+		1A604E3E1A431F6B0028FD34 /* 072-BW-Feedwater-Iron-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DCA1A431F6B0028FD34 /* 072-BW-Feedwater-Iron-1-of-2.png */; };
+		1A604E3F1A431F6B0028FD34 /* 073-BW-Feedwater-pH-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DCB1A431F6B0028FD34 /* 073-BW-Feedwater-pH-1-of-1.png */; };
+		1A604E401A431F6B0028FD34 /* 074-BW-Feedwater-Conductivity-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DCC1A431F6B0028FD34 /* 074-BW-Feedwater-Conductivity-1-of-1.png */; };
+		1A604E411A431F6B0028FD34 /* 075-BW-Feedwater-Iron-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DCD1A431F6B0028FD34 /* 075-BW-Feedwater-Iron-2-of-2.png */; };
+		1A604E421A431F6B0028FD34 /* 076-BW-Feedwater-TH-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DCE1A431F6B0028FD34 /* 076-BW-Feedwater-TH-1-of-1.png */; };
+		1A604E431A431F6B0028FD34 /* 076-Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DD01A431F6B0028FD34 /* 076-Home.png */; };
+		1A604E441A431F6B0028FD34 /* 077-Boiler-Water-Test-Sequences.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DD11A431F6B0028FD34 /* 077-Boiler-Water-Test-Sequences.png */; };
+		1A604E451A431F6B0028FD34 /* 077b-Boiler-Steam-Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DD21A431F6B0028FD34 /* 077b-Boiler-Steam-Start.png */; };
+		1A604E461A431F6B0028FD34 /* 078-BW-Steam-Sulfite-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DD31A431F6B0028FD34 /* 078-BW-Steam-Sulfite-1-of-1.png */; };
+		1A604E471A431F6B0028FD34 /* 079-BW-Steam-Polymer-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DD41A431F6B0028FD34 /* 079-BW-Steam-Polymer-1-of-2.png */; };
+		1A604E481A431F6B0028FD34 /* 080-BW-Steam-pH-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DD51A431F6B0028FD34 /* 080-BW-Steam-pH-1-of-1.png */; };
+		1A604E491A431F6B0028FD34 /* 081-BW-Steam-Alk-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DD61A431F6B0028FD34 /* 081-BW-Steam-Alk-1-of-1.png */; };
+		1A604E4A1A431F6B0028FD34 /* 082-BW-Steam-NeutrCond-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DD71A431F6B0028FD34 /* 082-BW-Steam-NeutrCond-1-of-1.png */; };
+		1A604E4B1A431F6B0028FD34 /* 083-BW-Steam-TRASAR3-1-of-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DD81A431F6B0028FD34 /* 083-BW-Steam-TRASAR3-1-of-1.png */; };
+		1A604E4C1A431F6B0028FD34 /* 084-BW-Steam-Polymer-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DD91A431F6B0028FD34 /* 084-BW-Steam-Polymer-2-of-2.png */; };
+		1A604E4D1A431F6B0028FD34 /* 085-BW-Steam-Erytho-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DDA1A431F6B0028FD34 /* 085-BW-Steam-Erytho-1-of-2.png */; };
+		1A604E4E1A431F6B0028FD34 /* 086-BW-Steam-Erytho-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DDB1A431F6B0028FD34 /* 086-BW-Steam-Erytho-2-of-2.png */; };
+		1A604E4F1A431F6B0028FD34 /* 087-BW-Steam-Phosphate-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DDC1A431F6B0028FD34 /* 087-BW-Steam-Phosphate-1-of-2.png */; };
+		1A604E501A431F6B0028FD34 /* 088-BW-Steam-Phosphate-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DDD1A431F6B0028FD34 /* 088-BW-Steam-Phosphate-2-of-2.png */; };
+		1A604E511A431F6B0028FD34 /* 089-BW-Steam-Silica-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DDE1A431F6B0028FD34 /* 089-BW-Steam-Silica-1-of-2.png */; };
+		1A604E521A431F6B0028FD34 /* 090-BW-Steam-Silica-2-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DDF1A431F6B0028FD34 /* 090-BW-Steam-Silica-2-of-2.png */; };
+		1A604E531A431F6B0028FD34 /* Text Outline for Nalco App Test Screens.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 1A604DE01A431F6B0028FD34 /* Text Outline for Nalco App Test Screens.xlsx */; };
+		1AD0C7E71A445D1D004D24E4 /* Home-Dropdown-Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD0C7E61A445D1D004D24E4 /* Home-Dropdown-Menu.png */; };
+		1AD0C7E91A44D6A6004D24E4 /* 021-2-CW-Tower-Azole-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD0C7E81A44D6A6004D24E4 /* 021-2-CW-Tower-Azole-1-of-2.png */; };
+		1AD0C7EB1A44D6B7004D24E4 /* 046-2-CW-Closed-Phosphonate-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD0C7EA1A44D6B7004D24E4 /* 046-2-CW-Closed-Phosphonate-1-of-2.png */; };
+		1AD0C7ED1A44DCD5004D24E4 /* 033-2-CW-Tower-Phosphonate-1-of-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD0C7EC1A44DCD5004D24E4 /* 033-2-CW-Tower-Phosphonate-1-of-2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A604D4E1A431F3B0028FD34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A604D2C1A431F3B0028FD34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A604D331A431F3B0028FD34;
+			remoteInfo = WaterSystemsFinal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A604D341A431F3B0028FD34 /* WaterSystemsFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterSystemsFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A604D381A431F3B0028FD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A604D391A431F3B0028FD34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A604D3B1A431F3B0028FD34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A604D3C1A431F3B0028FD34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A604D3E1A431F3B0028FD34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A604D3F1A431F3B0028FD34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A604D421A431F3B0028FD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A604D441A431F3B0028FD34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A604D4D1A431F3B0028FD34 /* WaterSystemsFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterSystemsFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A604D521A431F3B0028FD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A604D531A431F3B0028FD34 /* WaterSystemsFinalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterSystemsFinalTests.m; sourceTree = "<group>"; };
+		1A604D601A431F6B0028FD34 /* Btn-Enter-and-Next-Blank_682x115.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn-Enter-and-Next-Blank_682x115.png"; sourceTree = "<group>"; };
+		1A604D611A431F6B0028FD34 /* Btn-Test-Sequence-Blank_652x115.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn-Test-Sequence-Blank_652x115.png"; sourceTree = "<group>"; };
+		1A604D631A431F6B0028FD34 /* Btn-Boiler-Water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn-Boiler-Water.png"; sourceTree = "<group>"; };
+		1A604D641A431F6B0028FD34 /* Btn-Cooling-Water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn-Cooling-Water.png"; sourceTree = "<group>"; };
+		1A604D651A431F6B0028FD34 /* Btn-Enter-wText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn-Enter-wText.png"; sourceTree = "<group>"; };
+		1A604D661A431F6B0028FD34 /* Btn-Next-wText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn-Next-wText.png"; sourceTree = "<group>"; };
+		1A604D671A431F6B0028FD34 /* Btn-Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn-Start.png"; sourceTree = "<group>"; };
+		1A604D6A1A431F6B0028FD34 /* Btn-Condensate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn-Condensate.png"; sourceTree = "<group>"; };
+		1A604D6B1A431F6B0028FD34 /* Btn-Feed-Water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn-Feed-Water.png"; sourceTree = "<group>"; };
+		1A604D6C1A431F6B0028FD34 /* Btn-Makeup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn-Makeup.png"; sourceTree = "<group>"; };
+		1A604D6D1A431F6B0028FD34 /* Btn-Steam-Boiler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn-Steam-Boiler.png"; sourceTree = "<group>"; };
+		1A604D6F1A431F6B0028FD34 /* Btn-Closed-System.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn-Closed-System.png"; sourceTree = "<group>"; };
+		1A604D701A431F6B0028FD34 /* Btn-Makeup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn-Makeup.png"; sourceTree = "<group>"; };
+		1A604D711A431F6B0028FD34 /* Btn-Tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn-Tower.png"; sourceTree = "<group>"; };
+		1A604D731A431F6B0028FD34 /* Icon-Edit-Account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Edit-Account.png"; sourceTree = "<group>"; };
+		1A604D741A431F6B0028FD34 /* Icon-Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Settings.png"; sourceTree = "<group>"; };
+		1A604D751A431F6B0028FD34 /* Icon-Sign-Out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Sign-Out.png"; sourceTree = "<group>"; };
+		1A604D761A431F6B0028FD34 /* Icon-Test-History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Test-History.png"; sourceTree = "<group>"; };
+		1A604D791A431F6B0028FD34 /* 001-Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "001-Home.png"; sourceTree = "<group>"; };
+		1A604D7A1A431F6B0028FD34 /* 002-Home-Dropdown-Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002-Home-Dropdown-Menu.png"; sourceTree = "<group>"; };
+		1A604D7C1A431F6B0028FD34 /* 003-Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003-Home.png"; sourceTree = "<group>"; };
+		1A604D7D1A431F6B0028FD34 /* 004-Cooling-Water-Test-Sequences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004-Cooling-Water-Test-Sequences.png"; sourceTree = "<group>"; };
+		1A604D7E1A431F6B0028FD34 /* 005-CW-Makeup-Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005-CW-Makeup-Start.png"; sourceTree = "<group>"; };
+		1A604D7F1A431F6B0028FD34 /* 006-CW-Makeup-Phosphate-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "006-CW-Makeup-Phosphate-1-of-2.png"; sourceTree = "<group>"; };
+		1A604D801A431F6B0028FD34 /* 007-CW-Makeup-Cond-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "007-CW-Makeup-Cond-1-of-1.png"; sourceTree = "<group>"; };
+		1A604D811A431F6B0028FD34 /* 008-CW-Makeup-Phosphate-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008-CW-Makeup-Phosphate-2-of-2.png"; sourceTree = "<group>"; };
+		1A604D821A431F6B0028FD34 /* 009-CW-Makeup-CH-1of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "009-CW-Makeup-CH-1of-1.png"; sourceTree = "<group>"; };
+		1A604D831A431F6B0028FD34 /* 010-CW-Makeup-Silica-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "010-CW-Makeup-Silica-1-of-2.png"; sourceTree = "<group>"; };
+		1A604D841A431F6B0028FD34 /* 011-CW-Makeup-TH-1of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "011-CW-Makeup-TH-1of-1.png"; sourceTree = "<group>"; };
+		1A604D851A431F6B0028FD34 /* 012-CW-Makeup-Silica-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "012-CW-Makeup-Silica-2-of-2.png"; sourceTree = "<group>"; };
+		1A604D871A431F6B0028FD34 /* 013-Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "013-Home.png"; sourceTree = "<group>"; };
+		1A604D881A431F6B0028FD34 /* 014-Cooling-Water-Test-Sequences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014-Cooling-Water-Test-Sequences.png"; sourceTree = "<group>"; };
+		1A604D891A431F6B0028FD34 /* 015-CW-Tower-Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "015-CW-Tower-Start.png"; sourceTree = "<group>"; };
+		1A604D8A1A431F6B0028FD34 /* 016-CW-Tower-Chlorine-1-of-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "016-CW-Tower-Chlorine-1-of-3.png"; sourceTree = "<group>"; };
+		1A604D8B1A431F6B0028FD34 /* 017-CW-Tower-Chlorine-2-of-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "017-CW-Tower-Chlorine-2-of-3.png"; sourceTree = "<group>"; };
+		1A604D8C1A431F6B0028FD34 /* 018-CW-Tower-Cond-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "018-CW-Tower-Cond-1-of-1.png"; sourceTree = "<group>"; };
+		1A604D8D1A431F6B0028FD34 /* 019-CW-Tower-Chlorine-3-of-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "019-CW-Tower-Chlorine-3-of-3.png"; sourceTree = "<group>"; };
+		1A604D8E1A431F6B0028FD34 /* 020-CW-Tower-TA-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "020-CW-Tower-TA-1-of-1.png"; sourceTree = "<group>"; };
+		1A604D8F1A431F6B0028FD34 /* 021-CW-Tower-Azole-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "021-CW-Tower-Azole-1-of-2.png"; sourceTree = "<group>"; };
+		1A604D901A431F6B0028FD34 /* 022-CW-Tower-Choose-CH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "022-CW-Tower-Choose-CH.png"; sourceTree = "<group>"; };
+		1A604D911A431F6B0028FD34 /* 023-CW-Tower-CH-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "023-CW-Tower-CH-1-of-1.png"; sourceTree = "<group>"; };
+		1A604D921A431F6B0028FD34 /* 024-CW-Tower-Azole-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "024-CW-Tower-Azole-2-of-2.png"; sourceTree = "<group>"; };
+		1A604D931A431F6B0028FD34 /* 025-CW-Tower-Copper-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "025-CW-Tower-Copper-1-of-2.png"; sourceTree = "<group>"; };
+		1A604D941A431F6B0028FD34 /* 026-CW-Tower-Choose-TH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "026-CW-Tower-Choose-TH.png"; sourceTree = "<group>"; };
+		1A604D951A431F6B0028FD34 /* 027-CW-Tower-TH-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "027-CW-Tower-TH-1-of-1.png"; sourceTree = "<group>"; };
+		1A604D961A431F6B0028FD34 /* 028-CW-Tower-pH-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "028-CW-Tower-pH-1-of-1.png"; sourceTree = "<group>"; };
+		1A604D971A431F6B0028FD34 /* 029-CW-Tower-Copper-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "029-CW-Tower-Copper-2-of-2.png"; sourceTree = "<group>"; };
+		1A604D981A431F6B0028FD34 /* 030-CW-Tower-Iron-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "030-CW-Tower-Iron-1-of-2.png"; sourceTree = "<group>"; };
+		1A604D991A431F6B0028FD34 /* 031-CW-Tower-Bacteria-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "031-CW-Tower-Bacteria-1-of-1.png"; sourceTree = "<group>"; };
+		1A604D9A1A431F6B0028FD34 /* 032-CW-Tower-Iron-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "032-CW-Tower-Iron-2-of-2.png"; sourceTree = "<group>"; };
+		1A604D9B1A431F6B0028FD34 /* 033-CW-Tower-Phosphonate-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "033-CW-Tower-Phosphonate-1-of-2.png"; sourceTree = "<group>"; };
+		1A604D9C1A431F6B0028FD34 /* 034-CW-Tower-TRASAR2-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "034-CW-Tower-TRASAR2-1-of-1.png"; sourceTree = "<group>"; };
+		1A604D9D1A431F6B0028FD34 /* 035-CW-Tower-Phosphonate-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "035-CW-Tower-Phosphonate-2-of-2.png"; sourceTree = "<group>"; };
+		1A604D9F1A431F6B0028FD34 /* 036-Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "036-Home.png"; sourceTree = "<group>"; };
+		1A604DA01A431F6B0028FD34 /* 037-Cooling-Water-Test-Sequences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "037-Cooling-Water-Test-Sequences.png"; sourceTree = "<group>"; };
+		1A604DA11A431F6B0028FD34 /* 037b-CW-Closed-Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "037b-CW-Closed-Start.png"; sourceTree = "<group>"; };
+		1A604DA21A431F6B0028FD34 /* 038-CW-Closed-Azole-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "038-CW-Closed-Azole-1-of-2.png"; sourceTree = "<group>"; };
+		1A604DA31A431F6B0028FD34 /* 039-CW-Closed-pH-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "039-CW-Closed-pH-1-of-1.png"; sourceTree = "<group>"; };
+		1A604DA41A431F6B0028FD34 /* 040-CW-Closed-Conductivity-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "040-CW-Closed-Conductivity-1-of-1.png"; sourceTree = "<group>"; };
+		1A604DA51A431F6B0028FD34 /* 041-CW-Closed-Azole-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "041-CW-Closed-Azole-2-of-2.png"; sourceTree = "<group>"; };
+		1A604DA61A431F6B0028FD34 /* 042-CW-Closed-Iron-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "042-CW-Closed-Iron-1-of-2.png"; sourceTree = "<group>"; };
+		1A604DA71A431F6B0028FD34 /* 043-CW-Closed-Iron-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "043-CW-Closed-Iron-2-of-2.png"; sourceTree = "<group>"; };
+		1A604DA81A431F6B0028FD34 /* 044-CW-Closed-Copper-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "044-CW-Closed-Copper-1-of-2.png"; sourceTree = "<group>"; };
+		1A604DA91A431F6B0028FD34 /* 045-CW-Closed-Copper-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "045-CW-Closed-Copper-2-of-2.png"; sourceTree = "<group>"; };
+		1A604DAA1A431F6B0028FD34 /* 046-CW-Closed-Phosphonate-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "046-CW-Closed-Phosphonate-1-of-2.png"; sourceTree = "<group>"; };
+		1A604DAB1A431F6B0028FD34 /* 047-CW-Closed-Phosphonate-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "047-CW-Closed-Phosphonate-2-of-2.png"; sourceTree = "<group>"; };
+		1A604DAC1A431F6B0028FD34 /* 048-CW-Closed-Molybdenum-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "048-CW-Closed-Molybdenum-1-of-2.png"; sourceTree = "<group>"; };
+		1A604DAD1A431F6B0028FD34 /* 049-CW-Closed-Nitrite-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "049-CW-Closed-Nitrite-1-of-1.png"; sourceTree = "<group>"; };
+		1A604DAE1A431F6B0028FD34 /* 050-CW-Closed-Molybdenum-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "050-CW-Closed-Molybdenum-2-of-2.png"; sourceTree = "<group>"; };
+		1A604DAF1A431F6B0028FD34 /* 051-CW-Closed-Silica-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "051-CW-Closed-Silica-1-of-2.png"; sourceTree = "<group>"; };
+		1A604DB01A431F6B0028FD34 /* 052-CW-Closed-Silica-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "052-CW-Closed-Silica-2-of-2.png"; sourceTree = "<group>"; };
+		1A604DB21A431F6B0028FD34 /* 053-Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "053-Home.png"; sourceTree = "<group>"; };
+		1A604DB31A431F6B0028FD34 /* 054-Boiler-Water-Test-Sequences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "054-Boiler-Water-Test-Sequences.png"; sourceTree = "<group>"; };
+		1A604DB41A431F6B0028FD34 /* 054b-Boiler-Condensate-Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "054b-Boiler-Condensate-Start.png"; sourceTree = "<group>"; };
+		1A604DB51A431F6B0028FD34 /* 055-BW-Condensate-Iron-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "055-BW-Condensate-Iron-1-of-2.png"; sourceTree = "<group>"; };
+		1A604DB61A431F6B0028FD34 /* 056-BW-Condensate-pH-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "056-BW-Condensate-pH-1-of-1.png"; sourceTree = "<group>"; };
+		1A604DB71A431F6B0028FD34 /* 057-BW-Condensate-Iron-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "057-BW-Condensate-Iron-2-of-2.png"; sourceTree = "<group>"; };
+		1A604DB81A431F6B0028FD34 /* 058-BW-Condensate-Conductivity-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "058-BW-Condensate-Conductivity-1-of-1.png"; sourceTree = "<group>"; };
+		1A604DB91A431F6B0028FD34 /* 059-BW-Condensate-TH-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "059-BW-Condensate-TH-1-of-1.png"; sourceTree = "<group>"; };
+		1A604DBB1A431F6B0028FD34 /* 060-Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "060-Home.png"; sourceTree = "<group>"; };
+		1A604DBC1A431F6B0028FD34 /* 061-Boiler-Water-Test-Sequences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "061-Boiler-Water-Test-Sequences.png"; sourceTree = "<group>"; };
+		1A604DBD1A431F6B0028FD34 /* 061b-Boiler-Makeup-Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "061b-Boiler-Makeup-Start.png"; sourceTree = "<group>"; };
+		1A604DBE1A431F6B0028FD34 /* 062-BW-Makeup-Choose-Chlorine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "062-BW-Makeup-Choose-Chlorine.png"; sourceTree = "<group>"; };
+		1A604DBF1A431F6B0028FD34 /* 063-BW-Makeup-Chlorine-1-of-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "063-BW-Makeup-Chlorine-1-of-3.png"; sourceTree = "<group>"; };
+		1A604DC01A431F6B0028FD34 /* 064-BW-Makeup-Chlorine-2-of-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "064-BW-Makeup-Chlorine-2-of-3.png"; sourceTree = "<group>"; };
+		1A604DC11A431F6B0028FD34 /* 065-BW-Makeup-Chlorine-3-of-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "065-BW-Makeup-Chlorine-3-of-3.png"; sourceTree = "<group>"; };
+		1A604DC21A431F6B0028FD34 /* 066-BW-Makeup-Silica-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "066-BW-Makeup-Silica-1-of-2.png"; sourceTree = "<group>"; };
+		1A604DC31A431F6B0028FD34 /* 067-BW-Makeup-Silica-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "067-BW-Makeup-Silica-2-of-2.png"; sourceTree = "<group>"; };
+		1A604DC41A431F6B0028FD34 /* 068-BW-Makeup-TH-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "068-BW-Makeup-TH-1-of-1.png"; sourceTree = "<group>"; };
+		1A604DC61A431F6B0028FD34 /* 069-Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "069-Home.png"; sourceTree = "<group>"; };
+		1A604DC71A431F6B0028FD34 /* 070-Boiler-Water-Test-Sequences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "070-Boiler-Water-Test-Sequences.png"; sourceTree = "<group>"; };
+		1A604DC81A431F6B0028FD34 /* 070b-Boiler-Feedwater-Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "070b-Boiler-Feedwater-Start.png"; sourceTree = "<group>"; };
+		1A604DC91A431F6B0028FD34 /* 071-BW-Feedwater-Sulfite-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "071-BW-Feedwater-Sulfite-1-of-1.png"; sourceTree = "<group>"; };
+		1A604DCA1A431F6B0028FD34 /* 072-BW-Feedwater-Iron-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "072-BW-Feedwater-Iron-1-of-2.png"; sourceTree = "<group>"; };
+		1A604DCB1A431F6B0028FD34 /* 073-BW-Feedwater-pH-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "073-BW-Feedwater-pH-1-of-1.png"; sourceTree = "<group>"; };
+		1A604DCC1A431F6B0028FD34 /* 074-BW-Feedwater-Conductivity-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "074-BW-Feedwater-Conductivity-1-of-1.png"; sourceTree = "<group>"; };
+		1A604DCD1A431F6B0028FD34 /* 075-BW-Feedwater-Iron-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "075-BW-Feedwater-Iron-2-of-2.png"; sourceTree = "<group>"; };
+		1A604DCE1A431F6B0028FD34 /* 076-BW-Feedwater-TH-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "076-BW-Feedwater-TH-1-of-1.png"; sourceTree = "<group>"; };
+		1A604DD01A431F6B0028FD34 /* 076-Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "076-Home.png"; sourceTree = "<group>"; };
+		1A604DD11A431F6B0028FD34 /* 077-Boiler-Water-Test-Sequences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "077-Boiler-Water-Test-Sequences.png"; sourceTree = "<group>"; };
+		1A604DD21A431F6B0028FD34 /* 077b-Boiler-Steam-Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "077b-Boiler-Steam-Start.png"; sourceTree = "<group>"; };
+		1A604DD31A431F6B0028FD34 /* 078-BW-Steam-Sulfite-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "078-BW-Steam-Sulfite-1-of-1.png"; sourceTree = "<group>"; };
+		1A604DD41A431F6B0028FD34 /* 079-BW-Steam-Polymer-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "079-BW-Steam-Polymer-1-of-2.png"; sourceTree = "<group>"; };
+		1A604DD51A431F6B0028FD34 /* 080-BW-Steam-pH-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "080-BW-Steam-pH-1-of-1.png"; sourceTree = "<group>"; };
+		1A604DD61A431F6B0028FD34 /* 081-BW-Steam-Alk-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "081-BW-Steam-Alk-1-of-1.png"; sourceTree = "<group>"; };
+		1A604DD71A431F6B0028FD34 /* 082-BW-Steam-NeutrCond-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "082-BW-Steam-NeutrCond-1-of-1.png"; sourceTree = "<group>"; };
+		1A604DD81A431F6B0028FD34 /* 083-BW-Steam-TRASAR3-1-of-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "083-BW-Steam-TRASAR3-1-of-1.png"; sourceTree = "<group>"; };
+		1A604DD91A431F6B0028FD34 /* 084-BW-Steam-Polymer-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "084-BW-Steam-Polymer-2-of-2.png"; sourceTree = "<group>"; };
+		1A604DDA1A431F6B0028FD34 /* 085-BW-Steam-Erytho-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "085-BW-Steam-Erytho-1-of-2.png"; sourceTree = "<group>"; };
+		1A604DDB1A431F6B0028FD34 /* 086-BW-Steam-Erytho-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "086-BW-Steam-Erytho-2-of-2.png"; sourceTree = "<group>"; };
+		1A604DDC1A431F6B0028FD34 /* 087-BW-Steam-Phosphate-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "087-BW-Steam-Phosphate-1-of-2.png"; sourceTree = "<group>"; };
+		1A604DDD1A431F6B0028FD34 /* 088-BW-Steam-Phosphate-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "088-BW-Steam-Phosphate-2-of-2.png"; sourceTree = "<group>"; };
+		1A604DDE1A431F6B0028FD34 /* 089-BW-Steam-Silica-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "089-BW-Steam-Silica-1-of-2.png"; sourceTree = "<group>"; };
+		1A604DDF1A431F6B0028FD34 /* 090-BW-Steam-Silica-2-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "090-BW-Steam-Silica-2-of-2.png"; sourceTree = "<group>"; };
+		1A604DE01A431F6B0028FD34 /* Text Outline for Nalco App Test Screens.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Text Outline for Nalco App Test Screens.xlsx"; sourceTree = "<group>"; };
+		1AD0C7E61A445D1D004D24E4 /* Home-Dropdown-Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-Dropdown-Menu.png"; sourceTree = "<group>"; };
+		1AD0C7E81A44D6A6004D24E4 /* 021-2-CW-Tower-Azole-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "021-2-CW-Tower-Azole-1-of-2.png"; sourceTree = "<group>"; };
+		1AD0C7EA1A44D6B7004D24E4 /* 046-2-CW-Closed-Phosphonate-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "046-2-CW-Closed-Phosphonate-1-of-2.png"; sourceTree = "<group>"; };
+		1AD0C7EC1A44DCD5004D24E4 /* 033-2-CW-Tower-Phosphonate-1-of-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "033-2-CW-Tower-Phosphonate-1-of-2.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A604D311A431F3B0028FD34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A604D4A1A431F3B0028FD34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A604D2B1A431F3B0028FD34 = {
+			isa = PBXGroup;
+			children = (
+				1A604D361A431F3B0028FD34 /* WaterSystemsFinal */,
+				1A604D501A431F3B0028FD34 /* WaterSystemsFinalTests */,
+				1A604D351A431F3B0028FD34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A604D351A431F3B0028FD34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A604D341A431F3B0028FD34 /* WaterSystemsFinal.app */,
+				1A604D4D1A431F3B0028FD34 /* WaterSystemsFinalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A604D361A431F3B0028FD34 /* WaterSystemsFinal */ = {
+			isa = PBXGroup;
+			children = (
+				1A604D3B1A431F3B0028FD34 /* AppDelegate.h */,
+				1A604D3C1A431F3B0028FD34 /* AppDelegate.m */,
+				1A604D3E1A431F3B0028FD34 /* ViewController.h */,
+				1A604D3F1A431F3B0028FD34 /* ViewController.m */,
+				1A604D411A431F3B0028FD34 /* Main.storyboard */,
+				1A604D441A431F3B0028FD34 /* Images.xcassets */,
+				1A604D5D1A431F6B0028FD34 /* Files for Tom */,
+				1A604D371A431F3B0028FD34 /* Supporting Files */,
+			);
+			path = WaterSystemsFinal;
+			sourceTree = "<group>";
+		};
+		1A604D371A431F3B0028FD34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A604D381A431F3B0028FD34 /* Info.plist */,
+				1A604D391A431F3B0028FD34 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A604D501A431F3B0028FD34 /* WaterSystemsFinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A604D531A431F3B0028FD34 /* WaterSystemsFinalTests.m */,
+				1A604D511A431F3B0028FD34 /* Supporting Files */,
+			);
+			path = WaterSystemsFinalTests;
+			sourceTree = "<group>";
+		};
+		1A604D511A431F3B0028FD34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A604D521A431F3B0028FD34 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A604D5D1A431F6B0028FD34 /* Files for Tom */ = {
+			isa = PBXGroup;
+			children = (
+				1A604D5E1A431F6B0028FD34 /* Buttons */,
+				1A604D721A431F6B0028FD34 /* Icons */,
+				1A604D771A431F6B0028FD34 /* Screens (Sequential Order) */,
+				1A604DE01A431F6B0028FD34 /* Text Outline for Nalco App Test Screens.xlsx */,
+			);
+			path = "Files for Tom";
+			sourceTree = "<group>";
+		};
+		1A604D5E1A431F6B0028FD34 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				1A604D5F1A431F6B0028FD34 /* Blank */,
+				1A604D621A431F6B0028FD34 /* With Text */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		1A604D5F1A431F6B0028FD34 /* Blank */ = {
+			isa = PBXGroup;
+			children = (
+				1A604D601A431F6B0028FD34 /* Btn-Enter-and-Next-Blank_682x115.png */,
+				1A604D611A431F6B0028FD34 /* Btn-Test-Sequence-Blank_652x115.png */,
+			);
+			path = Blank;
+			sourceTree = "<group>";
+		};
+		1A604D621A431F6B0028FD34 /* With Text */ = {
+			isa = PBXGroup;
+			children = (
+				1A604D631A431F6B0028FD34 /* Btn-Boiler-Water.png */,
+				1A604D641A431F6B0028FD34 /* Btn-Cooling-Water.png */,
+				1A604D651A431F6B0028FD34 /* Btn-Enter-wText.png */,
+				1A604D661A431F6B0028FD34 /* Btn-Next-wText.png */,
+				1A604D671A431F6B0028FD34 /* Btn-Start.png */,
+				1A604D681A431F6B0028FD34 /* Test Sequence Buttons */,
+			);
+			path = "With Text";
+			sourceTree = "<group>";
+		};
+		1A604D681A431F6B0028FD34 /* Test Sequence Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				1A604D691A431F6B0028FD34 /* Boiler */,
+				1A604D6E1A431F6B0028FD34 /* Cooling */,
+			);
+			path = "Test Sequence Buttons";
+			sourceTree = "<group>";
+		};
+		1A604D691A431F6B0028FD34 /* Boiler */ = {
+			isa = PBXGroup;
+			children = (
+				1A604D6A1A431F6B0028FD34 /* Btn-Condensate.png */,
+				1A604D6B1A431F6B0028FD34 /* Btn-Feed-Water.png */,
+				1A604D6C1A431F6B0028FD34 /* Btn-Makeup.png */,
+				1A604D6D1A431F6B0028FD34 /* Btn-Steam-Boiler.png */,
+			);
+			path = Boiler;
+			sourceTree = "<group>";
+		};
+		1A604D6E1A431F6B0028FD34 /* Cooling */ = {
+			isa = PBXGroup;
+			children = (
+				1A604D6F1A431F6B0028FD34 /* Btn-Closed-System.png */,
+				1A604D701A431F6B0028FD34 /* Btn-Makeup.png */,
+				1A604D711A431F6B0028FD34 /* Btn-Tower.png */,
+			);
+			path = Cooling;
+			sourceTree = "<group>";
+		};
+		1A604D721A431F6B0028FD34 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1A604D731A431F6B0028FD34 /* Icon-Edit-Account.png */,
+				1A604D741A431F6B0028FD34 /* Icon-Settings.png */,
+				1A604D751A431F6B0028FD34 /* Icon-Sign-Out.png */,
+				1A604D761A431F6B0028FD34 /* Icon-Test-History.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		1A604D771A431F6B0028FD34 /* Screens (Sequential Order) */ = {
+			isa = PBXGroup;
+			children = (
+				1A604D781A431F6B0028FD34 /* 001_Home Screens */,
+				1A604D7B1A431F6B0028FD34 /* 002_Cooling Water_Makeup */,
+				1A604D861A431F6B0028FD34 /* 003_Cooling Water_Tower */,
+				1A604D9E1A431F6B0028FD34 /* 004_Cooling Water_Closed System */,
+				1A604DB11A431F6B0028FD34 /* 005_Boiler Water_Condensate */,
+				1A604DBA1A431F6B0028FD34 /* 006_Boiler Water_Makeup */,
+				1A604DC51A431F6B0028FD34 /* 007_Boiler Water_Feed Water */,
+				1A604DCF1A431F6B0028FD34 /* 007_Boiler Water_Steam Boiler */,
+			);
+			path = "Screens (Sequential Order)";
+			sourceTree = "<group>";
+		};
+		1A604D781A431F6B0028FD34 /* 001_Home Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1AD0C7E61A445D1D004D24E4 /* Home-Dropdown-Menu.png */,
+				1A604D791A431F6B0028FD34 /* 001-Home.png */,
+				1A604D7A1A431F6B0028FD34 /* 002-Home-Dropdown-Menu.png */,
+			);
+			path = "001_Home Screens";
+			sourceTree = "<group>";
+		};
+		1A604D7B1A431F6B0028FD34 /* 002_Cooling Water_Makeup */ = {
+			isa = PBXGroup;
+			children = (
+				1A604D7C1A431F6B0028FD34 /* 003-Home.png */,
+				1A604D7D1A431F6B0028FD34 /* 004-Cooling-Water-Test-Sequences.png */,
+				1A604D7E1A431F6B0028FD34 /* 005-CW-Makeup-Start.png */,
+				1A604D7F1A431F6B0028FD34 /* 006-CW-Makeup-Phosphate-1-of-2.png */,
+				1A604D801A431F6B0028FD34 /* 007-CW-Makeup-Cond-1-of-1.png */,
+				1A604D811A431F6B0028FD34 /* 008-CW-Makeup-Phosphate-2-of-2.png */,
+				1A604D821A431F6B0028FD34 /* 009-CW-Makeup-CH-1of-1.png */,
+				1A604D831A431F6B0028FD34 /* 010-CW-Makeup-Silica-1-of-2.png */,
+				1A604D841A431F6B0028FD34 /* 011-CW-Makeup-TH-1of-1.png */,
+				1A604D851A431F6B0028FD34 /* 012-CW-Makeup-Silica-2-of-2.png */,
+			);
+			path = "002_Cooling Water_Makeup";
+			sourceTree = "<group>";
+		};
+		1A604D861A431F6B0028FD34 /* 003_Cooling Water_Tower */ = {
+			isa = PBXGroup;
+			children = (
+				1AD0C7EC1A44DCD5004D24E4 /* 033-2-CW-Tower-Phosphonate-1-of-2.png */,
+				1AD0C7E81A44D6A6004D24E4 /* 021-2-CW-Tower-Azole-1-of-2.png */,
+				1A604D871A431F6B0028FD34 /* 013-Home.png */,
+				1A604D881A431F6B0028FD34 /* 014-Cooling-Water-Test-Sequences.png */,
+				1A604D891A431F6B0028FD34 /* 015-CW-Tower-Start.png */,
+				1A604D8A1A431F6B0028FD34 /* 016-CW-Tower-Chlorine-1-of-3.png */,
+				1A604D8B1A431F6B0028FD34 /* 017-CW-Tower-Chlorine-2-of-3.png */,
+				1A604D8C1A431F6B0028FD34 /* 018-CW-Tower-Cond-1-of-1.png */,
+				1A604D8D1A431F6B0028FD34 /* 019-CW-Tower-Chlorine-3-of-3.png */,
+				1A604D8E1A431F6B0028FD34 /* 020-CW-Tower-TA-1-of-1.png */,
+				1A604D8F1A431F6B0028FD34 /* 021-CW-Tower-Azole-1-of-2.png */,
+				1A604D901A431F6B0028FD34 /* 022-CW-Tower-Choose-CH.png */,
+				1A604D911A431F6B0028FD34 /* 023-CW-Tower-CH-1-of-1.png */,
+				1A604D921A431F6B0028FD34 /* 024-CW-Tower-Azole-2-of-2.png */,
+				1A604D931A431F6B0028FD34 /* 025-CW-Tower-Copper-1-of-2.png */,
+				1A604D941A431F6B0028FD34 /* 026-CW-Tower-Choose-TH.png */,
+				1A604D951A431F6B0028FD34 /* 027-CW-Tower-TH-1-of-1.png */,
+				1A604D961A431F6B0028FD34 /* 028-CW-Tower-pH-1-of-1.png */,
+				1A604D971A431F6B0028FD34 /* 029-CW-Tower-Copper-2-of-2.png */,
+				1A604D981A431F6B0028FD34 /* 030-CW-Tower-Iron-1-of-2.png */,
+				1A604D991A431F6B0028FD34 /* 031-CW-Tower-Bacteria-1-of-1.png */,
+				1A604D9A1A431F6B0028FD34 /* 032-CW-Tower-Iron-2-of-2.png */,
+				1A604D9B1A431F6B0028FD34 /* 033-CW-Tower-Phosphonate-1-of-2.png */,
+				1A604D9C1A431F6B0028FD34 /* 034-CW-Tower-TRASAR2-1-of-1.png */,
+				1A604D9D1A431F6B0028FD34 /* 035-CW-Tower-Phosphonate-2-of-2.png */,
+			);
+			path = "003_Cooling Water_Tower";
+			sourceTree = "<group>";
+		};
+		1A604D9E1A431F6B0028FD34 /* 004_Cooling Water_Closed System */ = {
+			isa = PBXGroup;
+			children = (
+				1AD0C7EA1A44D6B7004D24E4 /* 046-2-CW-Closed-Phosphonate-1-of-2.png */,
+				1A604D9F1A431F6B0028FD34 /* 036-Home.png */,
+				1A604DA01A431F6B0028FD34 /* 037-Cooling-Water-Test-Sequences.png */,
+				1A604DA11A431F6B0028FD34 /* 037b-CW-Closed-Start.png */,
+				1A604DA21A431F6B0028FD34 /* 038-CW-Closed-Azole-1-of-2.png */,
+				1A604DA31A431F6B0028FD34 /* 039-CW-Closed-pH-1-of-1.png */,
+				1A604DA41A431F6B0028FD34 /* 040-CW-Closed-Conductivity-1-of-1.png */,
+				1A604DA51A431F6B0028FD34 /* 041-CW-Closed-Azole-2-of-2.png */,
+				1A604DA61A431F6B0028FD34 /* 042-CW-Closed-Iron-1-of-2.png */,
+				1A604DA71A431F6B0028FD34 /* 043-CW-Closed-Iron-2-of-2.png */,
+				1A604DA81A431F6B0028FD34 /* 044-CW-Closed-Copper-1-of-2.png */,
+				1A604DA91A431F6B0028FD34 /* 045-CW-Closed-Copper-2-of-2.png */,
+				1A604DAA1A431F6B0028FD34 /* 046-CW-Closed-Phosphonate-1-of-2.png */,
+				1A604DAB1A431F6B0028FD34 /* 047-CW-Closed-Phosphonate-2-of-2.png */,
+				1A604DAC1A431F6B0028FD34 /* 048-CW-Closed-Molybdenum-1-of-2.png */,
+				1A604DAD1A431F6B0028FD34 /* 049-CW-Closed-Nitrite-1-of-1.png */,
+				1A604DAE1A431F6B0028FD34 /* 050-CW-Closed-Molybdenum-2-of-2.png */,
+				1A604DAF1A431F6B0028FD34 /* 051-CW-Closed-Silica-1-of-2.png */,
+				1A604DB01A431F6B0028FD34 /* 052-CW-Closed-Silica-2-of-2.png */,
+			);
+			path = "004_Cooling Water_Closed System";
+			sourceTree = "<group>";
+		};
+		1A604DB11A431F6B0028FD34 /* 005_Boiler Water_Condensate */ = {
+			isa = PBXGroup;
+			children = (
+				1A604DB21A431F6B0028FD34 /* 053-Home.png */,
+				1A604DB31A431F6B0028FD34 /* 054-Boiler-Water-Test-Sequences.png */,
+				1A604DB41A431F6B0028FD34 /* 054b-Boiler-Condensate-Start.png */,
+				1A604DB51A431F6B0028FD34 /* 055-BW-Condensate-Iron-1-of-2.png */,
+				1A604DB61A431F6B0028FD34 /* 056-BW-Condensate-pH-1-of-1.png */,
+				1A604DB71A431F6B0028FD34 /* 057-BW-Condensate-Iron-2-of-2.png */,
+				1A604DB81A431F6B0028FD34 /* 058-BW-Condensate-Conductivity-1-of-1.png */,
+				1A604DB91A431F6B0028FD34 /* 059-BW-Condensate-TH-1-of-1.png */,
+			);
+			path = "005_Boiler Water_Condensate";
+			sourceTree = "<group>";
+		};
+		1A604DBA1A431F6B0028FD34 /* 006_Boiler Water_Makeup */ = {
+			isa = PBXGroup;
+			children = (
+				1A604DBB1A431F6B0028FD34 /* 060-Home.png */,
+				1A604DBC1A431F6B0028FD34 /* 061-Boiler-Water-Test-Sequences.png */,
+				1A604DBD1A431F6B0028FD34 /* 061b-Boiler-Makeup-Start.png */,
+				1A604DBE1A431F6B0028FD34 /* 062-BW-Makeup-Choose-Chlorine.png */,
+				1A604DBF1A431F6B0028FD34 /* 063-BW-Makeup-Chlorine-1-of-3.png */,
+				1A604DC01A431F6B0028FD34 /* 064-BW-Makeup-Chlorine-2-of-3.png */,
+				1A604DC11A431F6B0028FD34 /* 065-BW-Makeup-Chlorine-3-of-3.png */,
+				1A604DC21A431F6B0028FD34 /* 066-BW-Makeup-Silica-1-of-2.png */,
+				1A604DC31A431F6B0028FD34 /* 067-BW-Makeup-Silica-2-of-2.png */,
+				1A604DC41A431F6B0028FD34 /* 068-BW-Makeup-TH-1-of-1.png */,
+			);
+			path = "006_Boiler Water_Makeup";
+			sourceTree = "<group>";
+		};
+		1A604DC51A431F6B0028FD34 /* 007_Boiler Water_Feed Water */ = {
+			isa = PBXGroup;
+			children = (
+				1A604DC61A431F6B0028FD34 /* 069-Home.png */,
+				1A604DC71A431F6B0028FD34 /* 070-Boiler-Water-Test-Sequences.png */,
+				1A604DC81A431F6B0028FD34 /* 070b-Boiler-Feedwater-Start.png */,
+				1A604DC91A431F6B0028FD34 /* 071-BW-Feedwater-Sulfite-1-of-1.png */,
+				1A604DCA1A431F6B0028FD34 /* 072-BW-Feedwater-Iron-1-of-2.png */,
+				1A604DCB1A431F6B0028FD34 /* 073-BW-Feedwater-pH-1-of-1.png */,
+				1A604DCC1A431F6B0028FD34 /* 074-BW-Feedwater-Conductivity-1-of-1.png */,
+				1A604DCD1A431F6B0028FD34 /* 075-BW-Feedwater-Iron-2-of-2.png */,
+				1A604DCE1A431F6B0028FD34 /* 076-BW-Feedwater-TH-1-of-1.png */,
+			);
+			path = "007_Boiler Water_Feed Water";
+			sourceTree = "<group>";
+		};
+		1A604DCF1A431F6B0028FD34 /* 007_Boiler Water_Steam Boiler */ = {
+			isa = PBXGroup;
+			children = (
+				1A604DD01A431F6B0028FD34 /* 076-Home.png */,
+				1A604DD11A431F6B0028FD34 /* 077-Boiler-Water-Test-Sequences.png */,
+				1A604DD21A431F6B0028FD34 /* 077b-Boiler-Steam-Start.png */,
+				1A604DD31A431F6B0028FD34 /* 078-BW-Steam-Sulfite-1-of-1.png */,
+				1A604DD41A431F6B0028FD34 /* 079-BW-Steam-Polymer-1-of-2.png */,
+				1A604DD51A431F6B0028FD34 /* 080-BW-Steam-pH-1-of-1.png */,
+				1A604DD61A431F6B0028FD34 /* 081-BW-Steam-Alk-1-of-1.png */,
+				1A604DD71A431F6B0028FD34 /* 082-BW-Steam-NeutrCond-1-of-1.png */,
+				1A604DD81A431F6B0028FD34 /* 083-BW-Steam-TRASAR3-1-of-1.png */,
+				1A604DD91A431F6B0028FD34 /* 084-BW-Steam-Polymer-2-of-2.png */,
+				1A604DDA1A431F6B0028FD34 /* 085-BW-Steam-Erytho-1-of-2.png */,
+				1A604DDB1A431F6B0028FD34 /* 086-BW-Steam-Erytho-2-of-2.png */,
+				1A604DDC1A431F6B0028FD34 /* 087-BW-Steam-Phosphate-1-of-2.png */,
+				1A604DDD1A431F6B0028FD34 /* 088-BW-Steam-Phosphate-2-of-2.png */,
+				1A604DDE1A431F6B0028FD34 /* 089-BW-Steam-Silica-1-of-2.png */,
+				1A604DDF1A431F6B0028FD34 /* 090-BW-Steam-Silica-2-of-2.png */,
+			);
+			path = "007_Boiler Water_Steam Boiler";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A604D331A431F3B0028FD34 /* WaterSystemsFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A604D571A431F3B0028FD34 /* Build configuration list for PBXNativeTarget "WaterSystemsFinal" */;
+			buildPhases = (
+				1A604D301A431F3B0028FD34 /* Sources */,
+				1A604D311A431F3B0028FD34 /* Frameworks */,
+				1A604D321A431F3B0028FD34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterSystemsFinal;
+			productName = WaterSystemsFinal;
+			productReference = 1A604D341A431F3B0028FD34 /* WaterSystemsFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A604D4C1A431F3B0028FD34 /* WaterSystemsFinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A604D5A1A431F3B0028FD34 /* Build configuration list for PBXNativeTarget "WaterSystemsFinalTests" */;
+			buildPhases = (
+				1A604D491A431F3B0028FD34 /* Sources */,
+				1A604D4A1A431F3B0028FD34 /* Frameworks */,
+				1A604D4B1A431F3B0028FD34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A604D4F1A431F3B0028FD34 /* PBXTargetDependency */,
+			);
+			name = WaterSystemsFinalTests;
+			productName = WaterSystemsFinalTests;
+			productReference = 1A604D4D1A431F3B0028FD34 /* WaterSystemsFinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A604D2C1A431F3B0028FD34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = NCITSolutions;
+				TargetAttributes = {
+					1A604D331A431F3B0028FD34 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 3WTZ6N6VJE;
+					};
+					1A604D4C1A431F3B0028FD34 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 1A604D331A431F3B0028FD34;
+					};
+				};
+			};
+			buildConfigurationList = 1A604D2F1A431F3B0028FD34 /* Build configuration list for PBXProject "WaterSystemsFinal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A604D2B1A431F3B0028FD34;
+			productRefGroup = 1A604D351A431F3B0028FD34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A604D331A431F3B0028FD34 /* WaterSystemsFinal */,
+				1A604D4C1A431F3B0028FD34 /* WaterSystemsFinalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A604D321A431F3B0028FD34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A604E181A431F6B0028FD34 /* 037b-CW-Closed-Start.png in Resources */,
+				1A604E3B1A431F6B0028FD34 /* 070-Boiler-Water-Test-Sequences.png in Resources */,
+				1A604E521A431F6B0028FD34 /* 090-BW-Steam-Silica-2-of-2.png in Resources */,
+				1A604E111A431F6B0028FD34 /* 031-CW-Tower-Bacteria-1-of-1.png in Resources */,
+				1AD0C7E91A44D6A6004D24E4 /* 021-2-CW-Tower-Azole-1-of-2.png in Resources */,
+				1A604E2F1A431F6B0028FD34 /* 059-BW-Condensate-TH-1-of-1.png in Resources */,
+				1A604DF51A431F6B0028FD34 /* 003-Home.png in Resources */,
+				1A604E321A431F6B0028FD34 /* 061b-Boiler-Makeup-Start.png in Resources */,
+				1A604E481A431F6B0028FD34 /* 080-BW-Steam-pH-1-of-1.png in Resources */,
+				1A604E441A431F6B0028FD34 /* 077-Boiler-Water-Test-Sequences.png in Resources */,
+				1A604E371A431F6B0028FD34 /* 066-BW-Makeup-Silica-1-of-2.png in Resources */,
+				1A604E1F1A431F6B0028FD34 /* 044-CW-Closed-Copper-1-of-2.png in Resources */,
+				1A604E2D1A431F6B0028FD34 /* 057-BW-Condensate-Iron-2-of-2.png in Resources */,
+				1A604DF31A431F6B0028FD34 /* 001-Home.png in Resources */,
+				1A604E0D1A431F6B0028FD34 /* 027-CW-Tower-TH-1-of-1.png in Resources */,
+				1A604E161A431F6B0028FD34 /* 036-Home.png in Resources */,
+				1A604E141A431F6B0028FD34 /* 034-CW-Tower-TRASAR2-1-of-1.png in Resources */,
+				1A604DEC1A431F6B0028FD34 /* Btn-Closed-System.png in Resources */,
+				1A604E4F1A431F6B0028FD34 /* 087-BW-Steam-Phosphate-1-of-2.png in Resources */,
+				1A604E1B1A431F6B0028FD34 /* 040-CW-Closed-Conductivity-1-of-1.png in Resources */,
+				1A604E331A431F6B0028FD34 /* 062-BW-Makeup-Choose-Chlorine.png in Resources */,
+				1A604E3C1A431F6B0028FD34 /* 070b-Boiler-Feedwater-Start.png in Resources */,
+				1A604E451A431F6B0028FD34 /* 077b-Boiler-Steam-Start.png in Resources */,
+				1A604DF61A431F6B0028FD34 /* 004-Cooling-Water-Test-Sequences.png in Resources */,
+				1A604E221A431F6B0028FD34 /* 047-CW-Closed-Phosphonate-2-of-2.png in Resources */,
+				1A604E361A431F6B0028FD34 /* 065-BW-Makeup-Chlorine-3-of-3.png in Resources */,
+				1A604E191A431F6B0028FD34 /* 038-CW-Closed-Azole-1-of-2.png in Resources */,
+				1A604E041A431F6B0028FD34 /* 018-CW-Tower-Cond-1-of-1.png in Resources */,
+				1A604DFC1A431F6B0028FD34 /* 010-CW-Makeup-Silica-1-of-2.png in Resources */,
+				1A604D431A431F3B0028FD34 /* Main.storyboard in Resources */,
+				1A604DE11A431F6B0028FD34 /* Btn-Enter-and-Next-Blank_682x115.png in Resources */,
+				1A604E2A1A431F6B0028FD34 /* 054b-Boiler-Condensate-Start.png in Resources */,
+				1A604E061A431F6B0028FD34 /* 020-CW-Tower-TA-1-of-1.png in Resources */,
+				1A604E311A431F6B0028FD34 /* 061-Boiler-Water-Test-Sequences.png in Resources */,
+				1A604E431A431F6B0028FD34 /* 076-Home.png in Resources */,
+				1A604E2B1A431F6B0028FD34 /* 055-BW-Condensate-Iron-1-of-2.png in Resources */,
+				1A604E071A431F6B0028FD34 /* 021-CW-Tower-Azole-1-of-2.png in Resources */,
+				1A604DFF1A431F6B0028FD34 /* 013-Home.png in Resources */,
+				1A604E231A431F6B0028FD34 /* 048-CW-Closed-Molybdenum-1-of-2.png in Resources */,
+				1A604E001A431F6B0028FD34 /* 014-Cooling-Water-Test-Sequences.png in Resources */,
+				1A604DFA1A431F6B0028FD34 /* 008-CW-Makeup-Phosphate-2-of-2.png in Resources */,
+				1A604E281A431F6B0028FD34 /* 053-Home.png in Resources */,
+				1A604DE41A431F6B0028FD34 /* Btn-Cooling-Water.png in Resources */,
+				1A604DED1A431F6B0028FD34 /* Btn-Makeup.png in Resources */,
+				1A604E241A431F6B0028FD34 /* 049-CW-Closed-Nitrite-1-of-1.png in Resources */,
+				1A604E4B1A431F6B0028FD34 /* 083-BW-Steam-TRASAR3-1-of-1.png in Resources */,
+				1A604DF91A431F6B0028FD34 /* 007-CW-Makeup-Cond-1-of-1.png in Resources */,
+				1A604E301A431F6B0028FD34 /* 060-Home.png in Resources */,
+				1A604DE81A431F6B0028FD34 /* Btn-Condensate.png in Resources */,
+				1A604DE61A431F6B0028FD34 /* Btn-Next-wText.png in Resources */,
+				1A604DF11A431F6B0028FD34 /* Icon-Sign-Out.png in Resources */,
+				1AD0C7ED1A44DCD5004D24E4 /* 033-2-CW-Tower-Phosphonate-1-of-2.png in Resources */,
+				1A604E3F1A431F6B0028FD34 /* 073-BW-Feedwater-pH-1-of-1.png in Resources */,
+				1A604E051A431F6B0028FD34 /* 019-CW-Tower-Chlorine-3-of-3.png in Resources */,
+				1A604DEF1A431F6B0028FD34 /* Icon-Edit-Account.png in Resources */,
+				1A604E491A431F6B0028FD34 /* 081-BW-Steam-Alk-1-of-1.png in Resources */,
+				1A604E351A431F6B0028FD34 /* 064-BW-Makeup-Chlorine-2-of-3.png in Resources */,
+				1A604E531A431F6B0028FD34 /* Text Outline for Nalco App Test Screens.xlsx in Resources */,
+				1A604E471A431F6B0028FD34 /* 079-BW-Steam-Polymer-1-of-2.png in Resources */,
+				1A604DFD1A431F6B0028FD34 /* 011-CW-Makeup-TH-1of-1.png in Resources */,
+				1A604E251A431F6B0028FD34 /* 050-CW-Closed-Molybdenum-2-of-2.png in Resources */,
+				1A604E4E1A431F6B0028FD34 /* 086-BW-Steam-Erytho-2-of-2.png in Resources */,
+				1A604DE91A431F6B0028FD34 /* Btn-Feed-Water.png in Resources */,
+				1A604E031A431F6B0028FD34 /* 017-CW-Tower-Chlorine-2-of-3.png in Resources */,
+				1A604E391A431F6B0028FD34 /* 068-BW-Makeup-TH-1-of-1.png in Resources */,
+				1A604E2C1A431F6B0028FD34 /* 056-BW-Condensate-pH-1-of-1.png in Resources */,
+				1A604E261A431F6B0028FD34 /* 051-CW-Closed-Silica-1-of-2.png in Resources */,
+				1A604E201A431F6B0028FD34 /* 045-CW-Closed-Copper-2-of-2.png in Resources */,
+				1A604E3D1A431F6B0028FD34 /* 071-BW-Feedwater-Sulfite-1-of-1.png in Resources */,
+				1A604DF01A431F6B0028FD34 /* Icon-Settings.png in Resources */,
+				1A604DE31A431F6B0028FD34 /* Btn-Boiler-Water.png in Resources */,
+				1A604E501A431F6B0028FD34 /* 088-BW-Steam-Phosphate-2-of-2.png in Resources */,
+				1A604DF21A431F6B0028FD34 /* Icon-Test-History.png in Resources */,
+				1A604E131A431F6B0028FD34 /* 033-CW-Tower-Phosphonate-1-of-2.png in Resources */,
+				1A604E401A431F6B0028FD34 /* 074-BW-Feedwater-Conductivity-1-of-1.png in Resources */,
+				1A604DEE1A431F6B0028FD34 /* Btn-Tower.png in Resources */,
+				1A604E381A431F6B0028FD34 /* 067-BW-Makeup-Silica-2-of-2.png in Resources */,
+				1A604E411A431F6B0028FD34 /* 075-BW-Feedwater-Iron-2-of-2.png in Resources */,
+				1A604E151A431F6B0028FD34 /* 035-CW-Tower-Phosphonate-2-of-2.png in Resources */,
+				1A604E511A431F6B0028FD34 /* 089-BW-Steam-Silica-1-of-2.png in Resources */,
+				1A604DEB1A431F6B0028FD34 /* Btn-Steam-Boiler.png in Resources */,
+				1A604D451A431F3B0028FD34 /* Images.xcassets in Resources */,
+				1A604DF81A431F6B0028FD34 /* 006-CW-Makeup-Phosphate-1-of-2.png in Resources */,
+				1A604E4C1A431F6B0028FD34 /* 084-BW-Steam-Polymer-2-of-2.png in Resources */,
+				1A604E2E1A431F6B0028FD34 /* 058-BW-Condensate-Conductivity-1-of-1.png in Resources */,
+				1A604E461A431F6B0028FD34 /* 078-BW-Steam-Sulfite-1-of-1.png in Resources */,
+				1A604E0B1A431F6B0028FD34 /* 025-CW-Tower-Copper-1-of-2.png in Resources */,
+				1A604E011A431F6B0028FD34 /* 015-CW-Tower-Start.png in Resources */,
+				1A604E0C1A431F6B0028FD34 /* 026-CW-Tower-Choose-TH.png in Resources */,
+				1A604E1A1A431F6B0028FD34 /* 039-CW-Closed-pH-1-of-1.png in Resources */,
+				1A604E101A431F6B0028FD34 /* 030-CW-Tower-Iron-1-of-2.png in Resources */,
+				1A604E091A431F6B0028FD34 /* 023-CW-Tower-CH-1-of-1.png in Resources */,
+				1A604E341A431F6B0028FD34 /* 063-BW-Makeup-Chlorine-1-of-3.png in Resources */,
+				1A604DE71A431F6B0028FD34 /* Btn-Start.png in Resources */,
+				1A604DEA1A431F6B0028FD34 /* Btn-Makeup.png in Resources */,
+				1A604E021A431F6B0028FD34 /* 016-CW-Tower-Chlorine-1-of-3.png in Resources */,
+				1A604E1C1A431F6B0028FD34 /* 041-CW-Closed-Azole-2-of-2.png in Resources */,
+				1A604E421A431F6B0028FD34 /* 076-BW-Feedwater-TH-1-of-1.png in Resources */,
+				1A604E3E1A431F6B0028FD34 /* 072-BW-Feedwater-Iron-1-of-2.png in Resources */,
+				1A604DF41A431F6B0028FD34 /* 002-Home-Dropdown-Menu.png in Resources */,
+				1A604E0F1A431F6B0028FD34 /* 029-CW-Tower-Copper-2-of-2.png in Resources */,
+				1A604E4A1A431F6B0028FD34 /* 082-BW-Steam-NeutrCond-1-of-1.png in Resources */,
+				1AD0C7EB1A44D6B7004D24E4 /* 046-2-CW-Closed-Phosphonate-1-of-2.png in Resources */,
+				1A604DFE1A431F6B0028FD34 /* 012-CW-Makeup-Silica-2-of-2.png in Resources */,
+				1A604E211A431F6B0028FD34 /* 046-CW-Closed-Phosphonate-1-of-2.png in Resources */,
+				1A604E291A431F6B0028FD34 /* 054-Boiler-Water-Test-Sequences.png in Resources */,
+				1A604E4D1A431F6B0028FD34 /* 085-BW-Steam-Erytho-1-of-2.png in Resources */,
+				1AD0C7E71A445D1D004D24E4 /* Home-Dropdown-Menu.png in Resources */,
+				1A604E3A1A431F6B0028FD34 /* 069-Home.png in Resources */,
+				1A604E0E1A431F6B0028FD34 /* 028-CW-Tower-pH-1-of-1.png in Resources */,
+				1A604E081A431F6B0028FD34 /* 022-CW-Tower-Choose-CH.png in Resources */,
+				1A604E1D1A431F6B0028FD34 /* 042-CW-Closed-Iron-1-of-2.png in Resources */,
+				1A604E1E1A431F6B0028FD34 /* 043-CW-Closed-Iron-2-of-2.png in Resources */,
+				1A604E121A431F6B0028FD34 /* 032-CW-Tower-Iron-2-of-2.png in Resources */,
+				1A604E271A431F6B0028FD34 /* 052-CW-Closed-Silica-2-of-2.png in Resources */,
+				1A604DFB1A431F6B0028FD34 /* 009-CW-Makeup-CH-1of-1.png in Resources */,
+				1A604DF71A431F6B0028FD34 /* 005-CW-Makeup-Start.png in Resources */,
+				1A604E0A1A431F6B0028FD34 /* 024-CW-Tower-Azole-2-of-2.png in Resources */,
+				1A604E171A431F6B0028FD34 /* 037-Cooling-Water-Test-Sequences.png in Resources */,
+				1A604DE51A431F6B0028FD34 /* Btn-Enter-wText.png in Resources */,
+				1A604DE21A431F6B0028FD34 /* Btn-Test-Sequence-Blank_652x115.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A604D4B1A431F3B0028FD34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A604D301A431F3B0028FD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A604D401A431F3B0028FD34 /* ViewController.m in Sources */,
+				1A604D3D1A431F3B0028FD34 /* AppDelegate.m in Sources */,
+				1A604D3A1A431F3B0028FD34 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A604D491A431F3B0028FD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A604D541A431F3B0028FD34 /* WaterSystemsFinalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A604D4F1A431F3B0028FD34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A604D331A431F3B0028FD34 /* WaterSystemsFinal */;
+			targetProxy = 1A604D4E1A431F3B0028FD34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A604D411A431F3B0028FD34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A604D421A431F3B0028FD34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A604D551A431F3B0028FD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A604D561A431F3B0028FD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A604D581A431F3B0028FD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaterSystemsFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1A604D591A431F3B0028FD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaterSystemsFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		1A604D5B1A431F3B0028FD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WaterSystemsFinalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterSystemsFinal.app/WaterSystemsFinal";
+			};
+			name = Debug;
+		};
+		1A604D5C1A431F3B0028FD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WaterSystemsFinalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterSystemsFinal.app/WaterSystemsFinal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A604D2F1A431F3B0028FD34 /* Build configuration list for PBXProject "WaterSystemsFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A604D551A431F3B0028FD34 /* Debug */,
+				1A604D561A431F3B0028FD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A604D571A431F3B0028FD34 /* Build configuration list for PBXNativeTarget "WaterSystemsFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A604D581A431F3B0028FD34 /* Debug */,
+				1A604D591A431F3B0028FD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A604D5A1A431F3B0028FD34 /* Build configuration list for PBXNativeTarget "WaterSystemsFinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A604D5B1A431F3B0028FD34 /* Debug */,
+				1A604D5C1A431F3B0028FD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A604D2C1A431F3B0028FD34 /* Project object */;
+}
